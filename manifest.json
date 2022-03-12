@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Bhai Sun",
+    "description": "Sun Bsdk Close Everything and Study",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions":[
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": ["app.js"],
+        "persistent": true
+      }
+}
+    
